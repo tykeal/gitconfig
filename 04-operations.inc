@@ -8,7 +8,7 @@
 [gpgv]
     program = /usr/bin/gpg2
 [http]
-    cookiefile = /home/tykeal/.gitcookies
+    cookiefile = ~/.gitcookies
 [diff]
     tool = vimdiff
 [difftool]

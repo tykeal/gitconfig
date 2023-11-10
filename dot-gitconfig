@@ -1,18 +1,20 @@
 # Basic includes
 [include]
-    path = /home/tykeal/.gitconfig.d/00-user.inc
-    path = /home/tykeal/.gitconfig.d/01-color.inc
-    path = /home/tykeal/.gitconfig.d/02-core.inc
-    path = /home/tykeal/.gitconfig.d/03-alias.inc
-    path = /home/tykeal/.gitconfig.d/04-operations.inc
-    path = /home/tykeal/.gitconfig.d/05-lfs.inc
-    path = /home/tykeal/.gitconfig.d/06-init.inc
+    path = ~/.gitconfig.d/00-user.inc
+    path = ~/.gitconfig.d/01-color.inc
+    path = ~/.gitconfig.d/02-core.inc
+    path = ~/.gitconfig.d/03-alias.inc
+    path = ~/.gitconfig.d/04-operations.inc
+    path = ~/.gitconfig.d/05-lfs.inc
+    path = ~/.gitconfig.d/06-init.inc
+    path = ~/.gitconfig.d/06-init.inc
+    path = ~/.gitconfig.d/07-default-template.inc
 
 [includeIf "gitdir:~/repos/gerrit/"]
-    path = /home/tykeal/.gitconfig.d/gerrit/gerrit-includes.inc
+    path = ~/.gitconfig.d/gerrit/gerrit-includes.inc
 
 [includeIf "gitdir:~/repos/personal/"]
-    path = /home/tykeal/.gitconfig.d/personal/personal-includes.inc
+    path = ~/.gitconfig.d/personal/personal-includes.inc
 
 [includeIf "gitdir:~/repos/github/"]
-    path = /home/tykeal/.gitconfig.d/github/github-includes.inc
+    path = ~/.gitconfig.d/github/github-includes.inc

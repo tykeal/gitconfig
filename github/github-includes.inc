@@ -1,2 +1,2 @@
 [include]
-    path = /home/tykeal/.gitconfig.d/github/template.inc
+    path = ~/.gitconfig.d/07-default-template.inc

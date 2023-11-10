@@ -1,2 +1,2 @@
 [init]
-    templateDir = /home/tykeal/.gitconfig.d/templates/gerrit-git-template/
+    templateDir = ~/.gitconfig.d/templates/gerrit-git-template/
