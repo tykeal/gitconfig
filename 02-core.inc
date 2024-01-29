@@ -1,3 +1,5 @@
 [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    #whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
     excludesfile = ~/.gitconfig.d/gitignore_global
+    autocrlf = input
+    safecrlf = false
