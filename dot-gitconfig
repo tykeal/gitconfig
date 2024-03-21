@@ -7,8 +7,8 @@
     path = ~/.gitconfig.d/04-operations.inc
     path = ~/.gitconfig.d/05-lfs.inc
     path = ~/.gitconfig.d/06-init.inc
-    path = ~/.gitconfig.d/06-init.inc
     path = ~/.gitconfig.d/07-default-template.inc
+    path = ~/.gitconfig.d/08-diff.inc
 
 [includeIf "gitdir:~/repos/gerrit/"]
     path = ~/.gitconfig.d/gerrit/gerrit-includes.inc
